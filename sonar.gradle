@@ -3,7 +3,6 @@ apply plugin: "org.sonarqube"
 sonarqube {
     properties {
         // Insert other SonarQube properties here
-        property 'sonar.projectName', 'gmc-global'
-        property 'sonar.projectKey', 'gmc-global'
+        property 'sonar.projectKey', 'joe-tingsanchali-sonarsource_gmc-global'
     }
 }
