@@ -4,10 +4,6 @@
 
 This example project demonstrates how to analyze a multimodule project with Jacoco code coverage built with Gradle.
 
-## Prerequisites
-* [SonarQube](http://www.sonarqube.org/downloads/) 7.9+
-* A Gradle wrapper is included that bundles Gradle. All other required plugins will be pulled by Gradle as needed.
-
 ## Usage
 Run the following command (update `sonar.host.url`, `sonar.login`, `sonar.password`, etc. properties as needed either at command line or in `sonar.gradle`):
 * On Unix-like systems:
