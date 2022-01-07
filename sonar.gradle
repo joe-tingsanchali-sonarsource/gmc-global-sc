@@ -1,8 +1,9 @@
 apply plugin: "org.sonarqube"
 
 sonarqube {
-    properties {
-        // Insert other SonarQube properties here
-        property 'sonar.projectKey', 'joe-tingsanchali-sonarsource_gmc-global'
-    }
+  properties {
+    property "sonar.projectKey", "joe-tingsanchali-sonarsource_gmc-global-sc"
+    property "sonar.organization", "joe-tingsanchali-sonarsource"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
 }
