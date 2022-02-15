@@ -8,6 +8,7 @@ import static org.gradle.sample.app.MessageUtils.getMessage;
 
 public class Main {
     public static String getGreeting() {
+        System.out.println("HELLO EARTHLINGSSSSSSSSSS");
         return "Hello world.";
     }
 
